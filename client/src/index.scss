@@ -5,3 +5,20 @@ $green: #757f49;
 $black: #3d3b2c;
 $grey: #a7bbac;
 $darkbrown: #665329;
+
+// Fonts
+
+$heading: 'Spartan', sans-serif;
+$content: 'Open Sans', sans-serif;
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading;
+}
+
+p, span, a {
+  font-family: $content;
+}
