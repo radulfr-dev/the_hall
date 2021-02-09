@@ -1,0 +1,13 @@
+@import '../../index.scss';
+
+.Footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    padding: $padding;
+    background-color: rgba($black, .5);
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+
+}

@@ -11,6 +11,18 @@ $darkbrown: #665329;
 $heading: 'Spartan', sans-serif;
 $content: 'Open Sans', sans-serif;
 
+// Spacing
+
+$padding: 15px;
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
 body {
   margin: 0;
 }
